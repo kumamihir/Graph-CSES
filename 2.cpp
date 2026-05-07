@@ -30,7 +30,7 @@ bool bfs( vector<vector<char>>&grid,vector<vector<bool>>&vis,int i,int j){
 int32_t main(){
     fast_io;
 
-    //input idr lena h m and n ka !
+    //input idr lena h m and n ka 
     int n,m;
     cin>>n>>m;
 
@@ -55,7 +55,7 @@ int32_t main(){
         }
     }
 
-    //now ab a and b mil gye and hume strt and end pos mil gyi h so now ab bfs start krnege from a;
+    //now ab a and b mil gye and hume strt and end pos mil gyi h so now ab bfs start krnege from a
     queue<pair<int,int>>pq;
     vis[start.first][start.second] = true;
     pq.push(start);
@@ -91,7 +91,7 @@ int32_t main(){
         return 0;
     }
 
-    //ab yha ans / path ko contruct krna h ki chota rasta konsa h ;
+    //ab yha ans ya path ko contruct krna h ki chota rasta konsa h ;
     string path;
     pair<int,int>curr = target;
 
